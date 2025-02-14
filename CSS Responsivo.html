@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Responsivo</title>
+    <style>
+        body {
+            font-family: monospace;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color:blue;
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            background-color: blueviolet;
+            color: darkslateblue;
+            text-align: center;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        article {
+            flex: 3;
+            padding: 20px;
+        }
+        aside {
+            flex: 1;
+            padding: 20px;
+            background-color: gray;
+        }
+        footer {
+            background-color: darkred;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body> 
+    <nav>
+        <a href="#">Início</a>
+		<a href="#">Estudo</a>
+		<a href="#">Exercícios</a>
+		<a href="#">Projetos</a>  
+    </nav>  
+    <header>
+    <h1> Layout Responsivo</h1>  
+    <h2> Fazer Layouts eficazes é uma habilidade crucial para qualquer programador</h2>
+    </header> 
+    <main>
+        <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2020/09/design-responsivo-web-768x384.jpg" alt="Imagem 1" width="400" height="300">
+		<img src="https://www.somenek.com.br/fx-files/images/big/12_plgNewsPoster.webp" alt="Imagem 2" width="400" height="300">
+		<img src="https://storage.googleapis.com/dpw/app/uploads/2019/09/9-dicas-basicas-web-design-responsivo-mobile-first.jpg" alt="Imagem 3" width="400" height="300">
+		<img src="https://www.5xperts.ca/wp-content/uploads/2024/03/responsive-web-design-1-61f01c4b64c5f-sej-1170x729.png" alt="Imagem 4" width="400" height="300">
+    </main>  
+    <article>
+        <p>CSS Responsivo é uma técnica de design que permite que um site se adapte a diferentes tamanhos de tela e dispositivos. Isso é essencial para garantir uma boa experiência do usuário, independentemente de ele acessar o site por um celular, tablet ou computador. As principais técnicas usadas no CSS responsivo incluem media queries, layouts flexíveis (como Flexbox e Grid), e unidades relativas (%, em, rem, vw, vh).</p>
+        <p>As media queries permitem que o CSS aplique estilos diferentes dependendo do tamanho da tela ou de outras características do dispositivo, como resolução e orientação.</p>
+        <p>O Flexbox é um sistema de layout que permite distribuir os elementos de forma dinâmica e flexível dentro de um contêiner.</p>
+    </article>
+    <aside>
+        <p>CSS (Cascading Style Sheets) é uma linguagem de estilo usada para definir a aparência de páginas web. Ela permite separar a estrutura HTML do design, oferecendo controle sobre elementos como cores, fontes, espaçamentos, layout e animações. Com o CSS, é possível criar designs responsivos, que se adaptam a diferentes tamanhos de tela, melhorando a experiência do usuário. A linguagem utiliza seletores para aplicar regras de estilo a elementos específicos e pode ser combinada com HTML e JavaScript.</p>
+    </aside>
+    <footer>
+		<p>&copy 2025 - Wendell Alves - Curso de Lógica de Programação para Desenvolvimento Web | <small>Brasil Digital</small></p>
+		<nav>
+			<a href="#">Início</a>
+			<a href="#">Estudo</a>
+			<a href="#">Exercícios</a>
+			<a href="#">Projetos</a>
+		</nav>
+	</footer>   
+</body>
+</html>
